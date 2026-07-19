@@ -1,0 +1,10 @@
+# Required by the daily GitHub Actions workflow (fetch + render heatmap only)
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Required LOCALLY to regenerate the ASCII portrait from a new photo
+# (DO NOT install in the GitHub Action — not needed there)
+# pillow
+# numpy
+# opencv-python
+# rembg
